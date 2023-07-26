@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(ola.jpg);
+    
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 10px solid #080808b7;
+    border-radius: 20px;
+    background-color: #399216;
+    margin-top: 100px;
+  }
+  
+  label, input {
+    margin-bottom: 30px;
+    font-size: large;
+    font-family: fantasy;
+  
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  button:hover {
+    background-color: #666565;
+    
+  }
+  
+  #result {
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 10px solid #e3f119;
+    border-radius: 30px;
+    background-color: #020202;
+    color: #fff;
+  }
+
+  #weight{
+  text-align: center;
+
+  }
+
+ #height {
+ text-align: center;
+
+ }
+
+ h1{
+   margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 10px solid #b60505;
+    border-radius: 30px;
+    background-color: #a3b489;
+    
+ }
